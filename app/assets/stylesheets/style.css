@@ -1,0 +1,19 @@
+.has-form {
+  position: absolute;
+  top: 0;
+  left: 6rem;
+  min-width: 14rem; }
+  @media only screen and (max-width: 40em) {
+    .has-form {
+      min-width: 10rem;
+      top: 0.5rem; }
+      .has-form .button {
+        height: 1.85rem; } }
+
+
+img{
+  padding-top: 15px;
+  width: 65%;
+  max-height: 480px;
+  margin: 0 auto;
+} 
