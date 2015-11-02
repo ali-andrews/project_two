@@ -7,10 +7,18 @@ class PostsController < ApplicationController
   end
 
 
+  def popular
+    @posts = Post.all.order(read_count: :desc)
+  end
+
+  def latest
+    @posts = Post.all.order(date: :desc)
+  end
 
   # GET /posts/1
   # GET /posts/1.json
   def show
+    @post.increment!(:read_count)
   end
 
   # GET /posts/new

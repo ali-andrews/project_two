@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   root "home#index"
 
+  get 'posts/popular' => 'posts#popular'
+  get 'posts/latest' => 'posts#latest'
 
 
   resources :posts

@@ -38,7 +38,7 @@
         </div>
         <div class="large-4 small-3 columns">
           <!-- <div class="submit button">  -->
-          <%= f.submit "search", class: "alert button expand" %>
+          <%= f.submit "search", class: "button" %>
           <!-- Search</div> -->
           <% end %>
         </div>
@@ -51,9 +51,10 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li><%= link_to "Latest News", posts_path %></li>
+    <li><%= link_to "New Post", new_post_path %></li>
+      <li><a href="/posts/latest">Latest</a></li>
       <!-- Right Nav Section -->
-      <li><a href="#">Popular</a></li>
+      <li><a href="/posts/popular">Popular</a></li>
       <% if user_signed_in? %> 
       <li class="has-dropdown"><%= link_to current_user.first_name, profile_path(current_user.id) %> 
        <ul class="dropdown">
