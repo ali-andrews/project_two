@@ -1,0 +1,14 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<%= link_to "New Post", new_post_path %>
+<ul> 
+  <% @recent_posts.each do |post|%>
+  <li>
+  <%= link_to(post) do %>
+    <%= post.title%>: <%= post.date.to_formatted_s(:short)%>: <%= post.user.first_name%>
+  <% end %>
+  </li>
+  <% end %>
+</ul>
+
