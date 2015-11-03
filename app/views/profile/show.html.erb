@@ -1,6 +1,6 @@
-<h1><%= @user.first_name %>'s posts</h1>
+<h1><%= @user.first_name %>'s Articles</h1>
 
-
+<div class"user_posts">
 <ul> 
   <% @posts.each do |post|%>
   <li>
@@ -10,3 +10,4 @@
   </li>
   <% end %>
 </ul>
+</div>
