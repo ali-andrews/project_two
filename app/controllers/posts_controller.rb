@@ -15,6 +15,10 @@ class PostsController < ApplicationController
     @posts = Post.all.order(date: :desc)
   end
 
+#  def post_params
+ #   params.require(:post).permit(:name, :photo_ur;, :remote_photo_url)
+  #end
+
   # GET /posts/1
   # GET /posts/1.json
   def show
@@ -78,6 +82,7 @@ class PostsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
-      params.require(:post).permit(:title, :date, :location, :body, :user_id)
+      params.require(:post).permit(:title, :date, :location, :body, :user_id, :photo, :remote_photo_url)
     end
+
 end
