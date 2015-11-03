@@ -20,7 +20,7 @@
       <td><%= link_to post.title, post %></td>
         <td><%= post.date %></td>
         <td><%= post.location %></td>
-        <td><%= link_to post.body.lines.take(2).join, post %></td> 
+        <td><%= link_to post.body.lines.take(1.5).join, post %></td> 
         <td><%= post.user.first_name %> <%= post.user.last_name %></td>
 
         <% if current_user == post.user %> 

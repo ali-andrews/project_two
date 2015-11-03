@@ -1,6 +1,15 @@
-<ul class="example-news" data-orbit>
+<ul class="example-orbit" data-orbit data-options="animation:fade;
+             animation: 'slide'
+             data-options="timer:true; ,
+             timer_speed: 5000,
+             pause_on_hover:false;
+             animation_speed:500;
+             navigation_arrows:true;
+             bullets:false;">
+
+
   <li>
-    <img src="http://i.telegraph.co.uk/multimedia/archive/03365/charlotte-christen_3365281k.jpg" alt="slide 1" />
+  <img src="http://i.telegraph.co.uk/multimedia/archive/03365/charlotte-christen_3365281k.jpg" alt="slide 1" />
     <div class="orbit-caption">
       A royal Princess for England: Princess Charlotte is born.
     </div>
@@ -30,6 +39,7 @@
   <% end %>
   </li>
   <% end %>
+</ul>
 </ul>
 </div>
 
