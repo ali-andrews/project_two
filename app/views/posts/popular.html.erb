@@ -10,6 +10,7 @@
       <th>Location</th>
       <th width="50%">Body</th>
       <th>User</th>
+      <th>Read Count</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -22,6 +23,7 @@
         <td><%= post.location %></td>
         <td><%= link_to post.body.lines.take(2).join, post %></td> 
         <td><%= post.user.first_name %> <%= post.user.last_name %></td>
+        <td><%= post.read_count %></td>
 
         <% if current_user == post.user %> 
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
