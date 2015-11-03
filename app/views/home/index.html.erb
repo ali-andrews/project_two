@@ -1,5 +1,5 @@
-<ul class="example-orbit" data-orbit data-options="animation:fade;
-             animation: 'slide'
+<ul class="example-orbit" data-orbit data-options=animation:fade;
+             animation: 'slide',
              data-options="timer:true; ,
              timer_speed: 5000,
              pause_on_hover:false;
@@ -28,20 +28,15 @@
   </li>
 </ul>
 
+
 <div class="front_news">
+<div class="row">
 <h3>Latest News</h3>
-<ul> 
-  <% @recent_posts.each do |post|%>
-  <li>
-  <%= post.read_count %>
-  <%= link_to(post) do %>
-    <%= post.title%>: <%= post.date.to_formatted_s(:short)%>: <%= post.user.first_name%>
-  <% end %>
-  </li>
-  <% end %>
-</ul>
-</ul>
+
+  <%= render @recent_posts %>
+</div>
 </div>
 
-  
+
+
 

@@ -17,9 +17,8 @@ font-family: Verdana;
 
 
 img{
-  padding-top: 15px;
-  width: 65%;
-  max-height: 480px;
+  width: 85%;
+  max-height: 520px;
   margin: 0 auto;
 } 
 
@@ -28,9 +27,30 @@ img{
 
 }
 
+.form-box {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 980px;
+} 
+
 .foundation{
   orbit: {
     animation: 'slide',   
   }
 }
+
+h1.new_post { 
+text-align: center;
+margin-top: 50px;
+
+}
+
+.front_news {
+text-align: center;
+float:right;
+
+}
+
+
+
 

@@ -1,0 +1,10 @@
+<div class="medium-4 columns">
+  <div class="th">
+  
+  <%= post.read_count %>
+  <%= link_to(post) do %>
+    <%= post.title%>: <%= post.date.to_formatted_s(:short)%>: <%= post.user.first_name%>
+  <% end %>
+  </div>
+  </div>
+
