@@ -1,10 +1,11 @@
 <h1><%= @user.first_name %>'s Articles</h1>
 
 <ul class="small-block-grid-3 bla">
-<div class"user_posts">
+<div class="user-posts">
 <ul> 
   <% @posts.each do |post|%>
   <li>
+  <td> <%= image_tag post.photo.thumb.url %></td>
   <%= link_to(post) do %>
     <%= post.title%>: <%= post.date.to_formatted_s(:short)%>
   <% end %>

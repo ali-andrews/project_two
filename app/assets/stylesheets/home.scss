@@ -1,3 +1,33 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.background-image {
+  background: url(asset-path('main_background_new.png')) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  margin-bottom: 50px;
+}
+
+.background-image h1 {
+  font-family: 'Lato' sans-serif;
+  
+}
+
+
+
+.example-orbit li img{
+  width: 100%;
+  max-height: 520px;
+  margin: 0 auto;
+}
+
+.orbit-caption {
+  text-align: center;
+} 
+

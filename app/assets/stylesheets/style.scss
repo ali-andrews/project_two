@@ -1,6 +1,9 @@
-* {
-font-family: Verdana;
-
+h1.first-header {
+  width: 50px;
+  position: relative;
+ left: 50%;
+ transform: translateX(-50%);
+ font-family: 'Lato', sans-serif;
 }
 
 .top-bar {
@@ -9,8 +12,8 @@ background-color: black;
 
 #top-bar-section{
   background-color: black;
-
 }
+
 
 .has-form {
   position: absolute;
@@ -32,8 +35,6 @@ img{
   max-height: 520px;
   margin: 0 auto;
 } 
-
-
 
 .form-box {
   padding: 5px;
@@ -71,10 +72,22 @@ float:right;
 
 .bla {
   margin-top: 50px;
+  height: 280px;
+}
 
-height: 280px;
+input.button {
+  background: #BAD24A;
 }
 
 
+.about {
+  background-size: cover;
+}
+
+
+.user-posts {
+background: red;
+
+}
 
 

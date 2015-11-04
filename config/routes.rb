@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
   
   get 'profile/:id' => 'profile#show', as: :profile
- 
+
 
 
   root "home#index"
 
+  get 'home/about' => 'home#about'
   get 'posts/popular' => 'posts#popular'
   get 'posts/latest' => 'posts#latest'
 
