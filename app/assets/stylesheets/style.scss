@@ -3,6 +3,15 @@ font-family: Verdana;
 
 }
 
+.top-bar {
+background-color: black;
+}
+
+#top-bar-section{
+  background-color: black;
+
+}
+
 .has-form {
   position: absolute;
   top: 0;
@@ -13,7 +22,9 @@ font-family: Verdana;
       min-width: 10rem;
       top: 0.5rem; }
       .has-form .button {
-        height: 1.85rem; } }
+        height: 1.85rem; 
+      } 
+    }
 
 
 img{
@@ -63,6 +74,7 @@ float:right;
 
 height: 280px;
 }
+
 
 
 

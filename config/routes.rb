@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'profile/:id' => 'profile#show', as: :profile
  
 
+
   root "home#index"
 
   get 'posts/popular' => 'posts#popular'
