@@ -1,7 +1,6 @@
       <li>
-      <%= post.read_count %>
       <%= link_to(post) do %>
-      <%= image_tag post.photo.url, :size => '260x180' %>
+      <%= image_tag post.photo.url, width:"260", height:"180" %>
       <%= post.title%>: <%= post.date.to_formatted_s(:short)%>: <%= post.user.first_name%>
       <% end %>
       </li>

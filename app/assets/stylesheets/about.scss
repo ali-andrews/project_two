@@ -1,12 +1,30 @@
-.about {
-  background: url(asset-path('about_page.png')) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+// .about {
+//   background: url(asset-path('about_page.png')) no-repeat center center; 
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   width: 100vw;
+//   height: 100vh;
+// }
+
+.first-image, .second-image {
   width: 100vw;
   height: 100vh;
 }
 
+.first-image {
+  background: url(asset-path('about_page.png')) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-
+.second-image {
+  background: url(asset-path('main_background.png')) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
