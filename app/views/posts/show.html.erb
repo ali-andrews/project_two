@@ -1,28 +1,17 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
+<h3>
   <%= @post.title %>
-</p>
+</h3>
+
+<h5><strong><%= @post.date.to_formatted_s(:short) %>, <%= @post.location %></strong></h5>
 
 <p>
-  <strong>Date:</strong>
-  <%= @post.date %>
-</p>
-
-<p>
-  <strong>Location:</strong>
-  <%= @post.location %>
-</p>
-
-<p>
-  <strong>Body:</strong>
   <%= @post.body %>
 </p>
 
 <p>
-  <strong>User:</strong>
-  <%= @post.user_id %>
+  <%= @post.user.first_name %> <%= @post.user.last_name %>
 </p>
 
 
