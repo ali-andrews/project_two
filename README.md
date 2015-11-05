@@ -4,12 +4,10 @@
 ###VANGUARD
 ####What is Vanguard? 
 
-Vanguard is the first news organisation that doesn’t follow an agenda. Vanguard quickly realised that News organisations all have their own agendas. Thus, Vanguard was born- with one basic philosophy of being able to provide un-biased news to all- uploaded by any individual how they see and feel it. From sharing local news stories to some of the biggest events in history- users report what they feel. <br>
+Vanguard is the first news organisation that doesn’t follow an agenda. Vanguard quickly realised that News organisations all have their own agendas. Thus, Vanguard was born- with one basic philosophy of being able to provide an un-biased news to all- uploaded by any individual. From sharing local news stories to some of the biggest events in history- users report what they feel. <br>
 
 To get an unbiased view, you need to have information from multiple sources- in Vanguards case yourself and other everyday individuals. Society can upload their own news, photographs and thoughts. Vanguard correlates a users understanding of society with news. 
 <br>
-
-Vanguard is a News organisation with all articles and photographs taken by you're everyday person with what they see and feel. <br>
 
 
 ####Defintion: Vanguard
@@ -22,10 +20,12 @@ Vanguard is a News organisation with all articles and photographs taken by you'r
 ###Installation
 In order to implement Vanguard you will need the following gems:
 <br> 
-gem `'ransack'`<br> 
-gem `'carrierwave'`<br> 
-gem `'rmagick'`<br> 
-gem `'geocoder'`<br> 
+```
+gem 'ransack'<br> 
+gem 'carrierwave'<br> 
+gem 'rmagick'<br> 
+gem 'geocoder'<br> 
+```
 
 Install these via your favourite package manager. To find instructions for setup and install, as well as example configs, visit the individual githubs for each of the gems. 
 
@@ -33,11 +33,10 @@ Install these via your favourite package manager. To find instructions for setup
 
 The images used for Vanguard, are not all mine nor do I claim any involvement in their creation. The materials are used under Fair Use for academic and educational purpose, and should not be redistributed otherwise without permission from their creators. 
 
+
 ###Creation Process 
 Here are some 'mock up boards' which I thought I would base my thought process around as I liked thier layouts. 
 
-
-###Planning Options
 ![image](http://i.imgur.com/ISDMSVY.png)
 <br>
 
