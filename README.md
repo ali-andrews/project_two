@@ -64,7 +64,7 @@ Would implement further effects and animations
 
 ###Final Product
 
-![image](http://i.imgur.com/43IHPIw.png)
+![image](http://i.imgur.com/ZjNZVCF.jpg)
 
 ![image](http://i.imgur.com/HtJam6Z.png)
 
