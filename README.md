@@ -49,7 +49,7 @@ Font Used: Lato (Google fonts)
 
 
 ###Responsive Design
-Pending improvment: need to build it to be responsive - over all devices.
+Pending improvment: need to build it to be more responsive - over all devices.
 
 ![image](http://i.imgur.com/43IHPIw.png)
 
