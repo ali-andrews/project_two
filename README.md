@@ -35,7 +35,7 @@ The images used for Vanguard, are not all mine nor do I claim any involvement in
 
 
 ###Creation Process 
-Here are some 'mock up boards' which I thought I would base my thought process around as I liked thier layouts. 
+Here are some 'mock up boards' which I thought I based my initial thought process around as I liked thier layouts. 
 
 ![image](http://i.imgur.com/ISDMSVY.png)
 <br>
