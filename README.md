@@ -29,6 +29,9 @@ gem 'geocoder'<br>
 
 Install these via your favourite package manager. To find instructions for setup and install, as well as example configs, visit the individual githubs for each of the gems. 
 
+###Chosen Materials:
+
+The images used for Vanguard, are not all mine nor do I claim any involvement in their creation. The materials are used under Fair Use for academic and educational purpose, and should not be redistributed otherwise without permission from their creators. 
 
 ###Creation Process 
 Here are some 'mock up boards' which I thought I would base my thought process around as I liked thier layouts. 
@@ -49,10 +52,10 @@ Front cover second idea:
 The "Latest news" Page: 
 ![image](http://i.imgur.com/4f6NbfV.png)
 
-
-###Chosen Materials:
-
-The images used for Vanguard, are not all mine nor do I claim any involvement in their creation. The materials are used under Fair Use for academic and educational purpose, and should not be redistributed otherwise without permission from their creators. 
+###Additional Extras
+The font color I based my design around was: #ADD8E6
+<br>
+Font Used: Lato (Google fonts)
 
 
 ###Responsive Design
@@ -60,11 +63,6 @@ Pending improvment: need to build it to be responsive - over all devices.
 
 ![image](http://i.imgur.com/43IHPIw.png)
 
-
-###Additional Extras
-The font color I based my design around was: #ADD8E6
-<br>
-Font Used: Lato (Google fonts)
 
 
 ###Improvements
