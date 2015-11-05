@@ -58,12 +58,30 @@ padding: 10px;
 
 }
 
-h3.latest_news { 
-text-align: center;
-margin-top: 20px;
-font-family: 'Lato', sans-serif;
 
+
+h1.latest-news { 
+text-align: left;
+margin-top: 50px;
+font-family: 'Lato', sans-serif;
+background-color: #ADD8E6;
+margin: 10px 0px 20px 0px;
+padding: 20px;
 }
+
+
+h1.popular-news { 
+text-align: left;
+margin-top: 50px;
+font-family: 'Lato', sans-serif;
+background-color: #ADD8E6;
+margin: 10px 0px 20px 0px;
+padding: 20px;
+}
+
+
+
+
 
 .front_news {
 text-align: center;
