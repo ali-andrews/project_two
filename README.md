@@ -42,7 +42,7 @@ Here are some 'mock up boards' which I thought I would base my thought process a
 
 
 
-###Additional Extras
+###Additional Styling
 The font color I based my design around was: #ADD8E6
 <br>
 Font Used: Lato (Google fonts)
