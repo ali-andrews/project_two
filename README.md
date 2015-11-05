@@ -22,10 +22,10 @@ Vanguard is a News organisation with all articles and photographs taken by you'r
 ###Installation
 In order to implement Vanguard you will need the following gems:
 <br> 
-gem 'ransack'<br> 
-gem 'carrierwave'<br> 
-gem 'rmagick'<br> 
-gem 'geocoder'<br> 
+gem `'ransack'`<br> 
+gem `'carrierwave'`<br> 
+gem `'rmagick'`<br> 
+gem `'geocoder'`<br> 
 
 Install these via your favourite package manager. To find instructions for setup and install, as well as example configs, visit the individual githubs for each of the gems. 
 
