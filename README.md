@@ -29,7 +29,7 @@ gem 'geocoder'<br>
 
 Install these via your favourite package manager. To find instructions for setup and install, as well as example configs, visit the individual githubs for each of the gems. 
 
-###Chosen Materials:
+###Chosen Materials
 
 The images used for Vanguard, are not all mine nor do I claim any involvement in their creation. The materials are used under Fair Use for academic and educational purpose, and should not be redistributed otherwise without permission from their creators. 
 
