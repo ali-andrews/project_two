@@ -21,10 +21,10 @@ To get an unbiased view, you need to have information from multiple sources- in 
 In order to implement Vanguard you will need the following gems:
 <br> 
 ```
-gem 'ransack'<br> 
-gem 'carrierwave'<br> 
-gem 'rmagick'<br> 
-gem 'geocoder'<br> 
+gem 'ransack' 
+gem 'carrierwave' 
+gem 'rmagick' 
+gem 'geocoder' 
 ```
 
 Install these via your favourite package manager. To find instructions for setup and install, as well as example configs, visit the individual githubs for each of the gems. 
