@@ -1,16 +1,19 @@
 <h1><%= @user.first_name %>'s Articles</h1>
 
-<ul class="small-block-grid-3 bla">
-<div class="user-posts">
-<ul> 
   <% @posts.each do |post|%>
-  <li>
-  <td> <%= image_tag post.photo.thumb.url %></td>
-  <%= link_to(post) do %>
-    <%= post.title%>: <%= post.date.to_formatted_s(:short)%>
+  <div class="latest-container" style="float: left; width: 600px; clear: none; border: none; height: 400px;">
+  <span style="height: 350px; float: left;"> <%= image_tag post.photo.url, width:"280", height: "200", style: "padding: 20px" %></span>
+  <h4><%= link_to post.title, post %></h4>
+
+    <p><strong><%= post.date.to_formatted_s(:short) %>, <%= post.location %></strong></p>
+    <p><%= link_to post.body.lines.take(1).join, post %></p> 
+    <p><%= post.user.first_name %> <%= post.user.last_name %>
+
+    <% if current_user == post.user %> 
+    <%= link_to 'Edit', edit_post_path(post) %>
+    <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <% end %></p> 
+  </div>
   <% end %>
-  </li>
-  <% end %>
-</ul>
-</ul>
-</div>
+
+

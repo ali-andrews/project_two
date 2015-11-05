@@ -1,29 +1,37 @@
 <p id="notice"><%= notice %></p>
 
+<div class="top-part">
+<div style="float: left; padding-right: 40px; padding-left: 25px;">
+<span id="map-canvas"> <%= @post.latitude %><%= @post.longitude %>
+</span>
+</div>
+
+
+<span class="posts-show-title" style="float: left">
 <h3>
   <%= @post.title %>
 </h3>
 
+
 <h5><strong><%= @post.date.to_formatted_s(:short) %>, <%= @post.location %></strong></h5>
 
-<p>
-  <%= @post.body %>
-</p>
+
 
 <p>
   <%= @post.user.first_name %> <%= @post.user.last_name %>
 </p>
-
-
-<p>
-<div id="map-canvas" style="width: 200px; height: 200px;"> <%= @post.latitude %><%= @post.longitude %>
+</span>
 </div>
+
+
+<p class="post-body">
+  <%= @post.body %>
 </p>
 
-<p>
-  <b>Image:</b>
-  <%= link_to image_tag(@post.photo.url), @post.photo.url %>
+<p class="post-photo">
+  <%= link_to image_tag(@post.photo.url, class: "show-photo"), @post.photo.url %>
 </p>
+
 
 
 

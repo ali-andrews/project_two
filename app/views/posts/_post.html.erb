@@ -1,7 +1,7 @@
-      <li>
-      <%= link_to(post) do %>
-      <%= image_tag post.photo.url, width:"260", height:"180" %>
-      <%= post.title%>: <%= post.date.to_formatted_s(:short)%>: <%= post.user.first_name%>
-      <% end %>
-      </li>
+<li class="post large-4 columns">
+  <ul>
+    <li>  <%= image_tag post.photo.url, width:"260", height:"180" %></li>
+    <li><%= post.title%></li> 
+  </ul>
+</li>
 
