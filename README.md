@@ -37,20 +37,11 @@ The images used for Vanguard, are not all mine nor do I claim any involvement in
 Here are some 'mock up boards' which I thought I would base my thought process around as I liked thier layouts. 
 
 
-Two different ideas for the front cover:
-![image](http://i.imgur.com/C0qRY7g.jpg)
+###Planning Options
+![image](http://i.imgur.com/o7DxSfp.png)
 <br>
 
-The front cover with a slider implemented:
-![image](http://i.imgur.com/lq1rkPp.jpg)
-<br>
 
-Front cover second idea:
-![image](http://i.imgur.com/XlInOmD.jpg)
-<br>
-
-The "Latest news" Page: 
-![image](http://i.imgur.com/4f6NbfV.png)
 
 ###Additional Extras
 The font color I based my design around was: #ADD8E6
