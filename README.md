@@ -38,7 +38,7 @@ Here are some 'mock up boards' which I thought I would base my thought process a
 
 
 ###Planning Options
-![image](http://i.imgur.com/0xuw1dH.png)
+![image](http://i.imgur.com/ISDMSVY.png)
 <br>
 
 
