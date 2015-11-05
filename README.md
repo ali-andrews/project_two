@@ -58,8 +58,10 @@ Pending improvment: need to build it to be more responsive - over all devices.
 ###Improvements
 With more time I would have implemented an 'Edit User Information Page' which would allow users to update their details i.e. employment what company they have worked for. Some extra information about them so that other users could know a bit about them or hire potential users if they like their pieces etc.
 <br> 
+
 Would implement further effects and animations
 <br> 
+
 Would also upload a 'gem' that would allow me to upload multiple photos rather than just one.
 
 
