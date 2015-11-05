@@ -1,7 +1,7 @@
 <li class="post large-4 columns">
   <ul>
     <li>  <%= image_tag post.photo.url, width:"260", height:"180" %></li>
-    <li><%= post.title%></li> 
+    <li><%= link_to post.title, post %></li> 
   </ul>
 </li>
 

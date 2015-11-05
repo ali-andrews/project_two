@@ -1,7 +1,7 @@
 <h1 class="article-name"><%= @user.first_name %>'s Articles</h1>
 
   <% @posts.each do |post|%>
-  <div class="posts-container" style="float: left; width: 510px; clear: none; border: none; height: 300px;">
+  <div class="posts-container" style="float: left; width: 550px; clear: none; border: none; height: 300px;">
   <span style="height: 350px; float: left;"> <%= image_tag post.photo.url, width:"280", height: "200", style: "padding: 20px" %></span>
   <h4><%= link_to post.title, post %></h4>
 

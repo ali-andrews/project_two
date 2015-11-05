@@ -1,8 +1,8 @@
 <div class="container demo-1">
   <div class="content">
     <div id="large-header" class="large-header">
-      <h1 class="main-title">VANGUARD </h1> 
-       <h2><span class="thin">| Modernizing the News Industry</span></h2>
+      <h1 class="main-title">VANGUARD |</h1> 
+       <h2><span class="main-caption thin">Modernizing the News Industry</span></h2>
       <canvas id="demo-canvas"></canvas>
     </div>
 
@@ -31,16 +31,17 @@
             Facebook reports jump in profits
           </div>
         </li>
-        <li>
-          <img src="http://www.livemint.com/rf/Image-621x414/LiveMint/Period1/2013/02/02/Photos/WeatherAirport--621x414.jpg" alt="slide 5" />
-          <div class="orbit-caption">
-            Heavy fog delays flights across Europe
-          </div>
+       <li>
+      <img src="http://ichef-1.bbci.co.uk/news/624/cpsprodpb/F1C1/production/_86498816_polaroid.jpg" alt="slide 5" />
+      <div class="orbit-caption">
+        GoPro sued by Polaroid camera maker
+      </div>
+      </li>
         </li>
       </ul>
     </div>
 
     <h3 class="last-news">Latest News</h3>
     <ul class="row">
-      <li><%= render @recent_posts %></li>
+      <li class="post-list"><%= render @recent_posts %></li>
     </ul>
