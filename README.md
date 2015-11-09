@@ -15,6 +15,8 @@ To get an unbiased view, you need to have information from multiple sources- in 
 
 
 
+
+
 ####Defintion: Vanguard
 "A group of people leading the way in new developments or ideas."
 <br>
