@@ -2,6 +2,8 @@
 <br>
 
 ###VANGUARD
+![image](http://i.imgur.com/ZjNZVCF.jpg)
+
 ####What is Vanguard? 
 
 Vanguard is the first news organisation that doesn’t follow an agenda. Vanguard quickly realised that News organisations all have their own agendas. Thus, Vanguard was born- with one basic philosophy of being able to provide an un-biased news to all- uploaded by any individual. From sharing local news stories to some of the biggest events in history- users report what they feel. <br>
